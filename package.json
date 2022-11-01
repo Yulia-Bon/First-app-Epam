@@ -1,0 +1,31 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "The first learning task for the Epam course.",
+  "main": "app.js",
+  "scripts": {"dev": "nodemon app.js",
+    "start": "node app.js",
+    "lint": "npx eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yulia-Bon/First-app-Epam.git"
+  },
+
+  "homepage": "#",
+  "keywords": [],
+  "author": "YuliaBon",
+  "license": "ISC",
+
+  "devDependencies": {
+    "fs-extra": "^10.1.0",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}
